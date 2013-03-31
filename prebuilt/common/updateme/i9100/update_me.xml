@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RomConfig>
+    <RomName>ReVolt JB ROM</RomName>
+    <RomVersion>3.1.0</RomVersion>
+    <RomCheckUrl>http://upload.iminisoft.org/update_me_check.xml</RomCheckUrl>
+    <RebootRecovery>0</RebootRecovery>
+	<DisableInstalledApps>1</DisableInstalledApps>
+	<DisableScripts>1</DisableScripts> 
+</RomConfig>
