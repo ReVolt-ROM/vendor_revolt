@@ -9,14 +9,16 @@ ifneq ($(RV_BUILD),)
                 ro.goo.developerid=Johnhany97 \
                 ro.goo.rom=ReVolt \
                 ro.goo.version=$(DATE) \
-                ro.revolt.version=ReVolt-JB-$(RV_BUILD)-$(TARGET_PRODUCT)
+                ro.revolt.version=ReVolt-JB-$(RV_BUILD)-$(TARGET_PRODUCT) \
+                ro.goo.board=$(subst full_,,$(TARGET_PRODUCT))
 else
         # ReVolt Nightly Build Details
         PRODUCT_PROPERTY_OVERRIDES += \
                 ro.goo.developerid=Johnhany97 \
                 ro.goo.rom=ReVoltNightlies \
                 ro.goo.version=$(DATE) \
-                ro.revolt.version=ReVolt-JB-$(TARGET_PRODUCT)-Nightly-$(DATE)
+                ro.revolt.version=ReVolt-JB-$(TARGET_PRODUCT)-Nightly-$(DATE) \
+                ro.goo.board=$(subst full_,,$(TARGET_PRODUCT))
 endif
 
 # Camera shutter sound property

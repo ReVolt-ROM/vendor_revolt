@@ -8,7 +8,7 @@ $(call inherit-product, vendor/revolt/configs/gsm.mk)
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
 # Maguro Overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/maguro
+PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/tuna
 
 # PA OVERLAY_TARGET
 OVERLAY_TARGET := pa_xhdpi
