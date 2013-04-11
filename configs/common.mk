@@ -8,6 +8,41 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/dictionaries
 SUPERUSER_EMBEDDED := true
 SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 
+ifneq ($(RV_BUILD),)
+# AOKP Packages
+PRODUCT_PACKAGES += \
+    AOKPtips \
+    AppWidgetPicker \
+    LatinImeDictionaryPack \
+    Microbes \
+    PerformanceControl \
+    ROMControl \
+    Superuser \
+    Su \
+    Torch
+
+# CM Packages
+PRODUCT_PACKAGES += \
+    audio_effects.conf \
+    LockClock  \
+    Trebuchet
+
+# Paranoid Packages and Additions for Hybrid
+PRODUCT_PACKAGES += \
+    ParanoidPreferences
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.pa.family=$(OVERLAY_TARGET)
+
+# ReVolt Packages
+PRODUCT_PACKAGES += \
+    GooManager \
+    FontSize \
+    StreetView \
+    ReVoltPapers \
+    Maps \
+    YouTube
+else
 # AOKP Packages
 PRODUCT_PACKAGES += \
     AOKPtips \
@@ -47,6 +82,8 @@ PRODUCT_PACKAGES += \
     Maps \
     YouTube \
     ESFileExplorer
+endif
+
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
