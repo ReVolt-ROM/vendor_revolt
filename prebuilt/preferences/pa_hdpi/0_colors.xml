@@ -22,4 +22,4 @@
         <setting type="Hybrid" target="com.google.android.youtube.colors" value="FF000000|B2FF0000|FFFFFFFF|FF000000|FFC91313"/>
         <setting type="Hybrid" target="com.google.android.apps.currents.colors" value="FFFFFFFF|FFFF4444|FFFF4444|FFFFFFFF|FFFF4444"/>
 
-</property>
+</property> 
