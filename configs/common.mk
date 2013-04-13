@@ -73,8 +73,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # ReVolt Packages
 PRODUCT_PACKAGES += \
-    XposedDPI \
-    XposedInstaller \
     GooManager \
     FontSize \
     StreetView \
