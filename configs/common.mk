@@ -82,6 +82,9 @@ PRODUCT_PACKAGES += \
     ESFileExplorer
 endif
 
+# ReVolt Packages
+PRODUCT_PACKAGES += \
+    ReVoltControl
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
