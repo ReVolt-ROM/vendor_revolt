@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     DSPManager \
     libcyanogen-dsp \
-    LockClock
+    LockClock \
+    Trebuchet
 
 endif
 
@@ -33,8 +34,7 @@ PRODUCT_PACKAGES += \
     StreetView \
     ReVoltPapers \
     Maps \
-    YouTube \
-    ReVoltLauncher
+    YouTube
 
 # AOKP Packages
 PRODUCT_PACKAGES += \
