@@ -42,7 +42,8 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     LatinImeDictionaryPack \
     Microbes \
-    PerformanceControl \
+    mGerrit \
+    PermissionsManager \
     ROMControl \
     Superuser \
     Su \
@@ -54,9 +55,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pa.family=$(OVERLAY_TARGET)
-
-PRODUCT_PACKAGES += \
-    mGerrit
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
