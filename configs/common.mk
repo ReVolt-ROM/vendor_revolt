@@ -99,6 +99,12 @@ PRODUCT_PACKAGES += \
     sftp \
     scp
 
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/revolt/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/revolt/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/revolt/prebuilt/common/bin/50-cm.sh:system/addon.d/50-cm.sh
+
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Scarabaeus.ogg \
