@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     LockClock \
-    Trebuchet
+    Trebuchet \
+    CMFileManager
 
 endif
 
