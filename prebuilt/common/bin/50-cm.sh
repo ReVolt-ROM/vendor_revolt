@@ -1,7 +1,7 @@
 #!/sbin/sh
-# 
+#
 # /system/addon.d/50-cm.sh
-# During a CM9 upgrade, this script backs up /system/etc/hosts,
+# During a ROM upgrade, this script backs up /system/etc/hosts,
 # /system is formatted and reinstalled, then the file is restored.
 #
 
@@ -10,18 +10,19 @@
 list_files() {
 cat <<EOF
 etc/hosts
+etc/paranoid/properties.conf
 EOF
 }
 
 case "$1" in
   backup)
     list_files | while read FILE DUMMY; do
-      backup_file $S/"$FILE"
+backup_file $S/"$FILE"
     done
   ;;
   restore)
     list_files | while read FILE REPLACEMENT; do
-      R=""
+R=""
       [ -n "$REPLACEMENT" ] && R="$S/$REPLACEMENT"
       [ -f "$C/$S/$FILE" ] && restore_file $S/"$FILE" "$R"
     done
