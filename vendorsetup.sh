@@ -7,3 +7,6 @@ add_lunch_combo revolt_n7000-userdebug
 add_lunch_combo revolt_n7100-userdebug
 add_lunch_combo revolt_i9300-userdebug
 add_lunch_combo revolt_d710-userdebug
+add_lunch_combo revolt_find5-userdebug
+add_lunch_combo revolt_jfltetmo-userdebug
+add_lunch_combo revolt_jfltecan-userdebug

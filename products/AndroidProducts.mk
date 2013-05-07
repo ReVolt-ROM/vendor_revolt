@@ -6,5 +6,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/mako.mk  \
     $(LOCAL_DIR)/i9300.mk \
     $(LOCAL_DIR)/n7000.mk \
+    $(LOCAL_DIR)/jfltetmo.mk \
+    $(LOCAL_DIR)/jfltecan.mk \
     $(LOCAL_DIR)/d710.mk \
+    $(LOCAL_DIR)/find5.mk \
     $(LOCAL_DIR)/n7100.mk
