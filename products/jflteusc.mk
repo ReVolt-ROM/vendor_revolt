@@ -10,8 +10,8 @@ $(call inherit-product, vendor/revolt/configs/common.mk)
 # Samsung Galaxy S4 Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/i9500
 
-# Setup device specific product configuration. 	10
-PRODUCT_NAME := aokp_jflteusc
+# Setup device specific product configuration.
+PRODUCT_NAME := revolt_jflteusc
 PRODUCT_BRAND := Samsung
 PRODUCT_DEVICE := jflteusc
 PRODUCT_MODEL := SCH-R970
