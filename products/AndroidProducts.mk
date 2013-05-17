@@ -10,6 +10,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/jfltecan.mk \
     $(LOCAL_DIR)/jflteusc.mk \
     $(LOCAL_DIR)/n8000.mk \
+    $(LOCAL_DIR)/manta.mk \
     $(LOCAL_DIR)/d710.mk \
     $(LOCAL_DIR)/i9500.mk \
     $(LOCAL_DIR)/find5.mk \
