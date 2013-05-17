@@ -28,3 +28,5 @@ add_lunch_combo revolt_jfltecan-userdebug
 add_lunch_combo revolt_jflteusc-userdebug
 # M7
 add_lunch_combo revolt_m7-userdebug
+# N8000
+add_lunch_combo revolt_n8000-userdebug
