@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<property name="Tablet UI" active="true" image="/system/etc/paranoid/preferences/images/tablet.png" color="#51ab27">
+
+        <description><![CDATA[Hybrid mode <b><font color='green'>on</font></b><br\>Stock workspace]]></description>
+        <setting type="Hybrid" target="%hybrid_mode" value="1"/>
+        <setting type="Hybrid" target="com.android.systemui.dpi" value="%rom_default_dpi"/>
+        <setting type="Hybrid" target="com.android.systemui.layout" value="%rom_default_layout"/>
+        <setting type="Android" target="max_notification_icons" value="5"/>
+
+</property>
