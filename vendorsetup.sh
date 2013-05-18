@@ -30,5 +30,9 @@ add_lunch_combo revolt_jflteusc-userdebug
 add_lunch_combo revolt_m7-userdebug
 # N8000
 add_lunch_combo revolt_n8000-userdebug
+# N8010
+add_lunch_combo revolt_n8010-userdebug
+# N8013
+add_lunch_combo revolt_n8013-userdebug
 # Manta
 add_lunch_combo revolt_manta-userdebug
