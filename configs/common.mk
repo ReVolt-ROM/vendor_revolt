@@ -13,6 +13,7 @@ ifneq ($(RV_BUILD),)
 # CM Packages
 PRODUCT_PACKAGES += \
     audio_effects.conf \
+    ReVoltLauncher \
     LockClock
 
 else
