@@ -140,3 +140,21 @@ PRODUCT_COPY_FILES += \
 
 # T-Mobile theme engine
 -include vendor/revolt/configs/themes_common.mk
+
+ifneq ($(RV_BUILD),)
+
+# Google Apps
+-include vendor/google/gapps_common.mk
+
+else
+
+# Google Apps
+#-include vendor/google/gapps_common.mk
+
+endif
+
+# Bring in all audio files
+include frameworks/base/data/sounds/NewAudio.mk
+
+# Extra Ringtones
+include frameworks/base/data/sounds/AudioPackageNewWave.mk
