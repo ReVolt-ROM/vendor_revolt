@@ -10,11 +10,7 @@ SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 
 ifneq ($(RV_BUILD),)
 
-# CM Packages
-PRODUCT_PACKAGES += \
-    audio_effects.conf \
-    ReVoltLauncher \
-    LockClock
+# NOTHING
 
 else
 
@@ -23,8 +19,6 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     DSPManager \
     libcyanogen-dsp \
-    LockClock \
-    ReVoltLauncher \
     CMFileManager
 
 endif
@@ -34,6 +28,7 @@ PRODUCT_PACKAGES += \
     GooManager \
     FontSize \
     StreetView \
+    ReVoltLauncher \
     ReVoltPapers \
     Maps \
     YouTube
@@ -50,6 +45,12 @@ PRODUCT_PACKAGES += \
     Superuser \
     Su \
     Torch
+
+# CM Packages
+PRODUCT_PACKAGES += \
+    FMRadio \
+    LockClock \
+
 
 # Paranoid Packages and Additions for Hybrid
 ifdef PA_DIFF_PREF
