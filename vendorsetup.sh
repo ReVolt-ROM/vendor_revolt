@@ -1,38 +1,51 @@
+## Nexus
 # Nexus 4
 add_lunch_combo revolt_mako-userdebug
-# Grouper
+# Nexus 7
 add_lunch_combo revolt_grouper-userdebug
-# I9100
-add_lunch_combo revolt_i9100-userdebug
-# I9100G
-add_lunch_combo revolt_i9100g-userdebug
-# Maguro
+# Nexus 10
+add_lunch_combo revolt_manta-userdebug
+# Galaxy Nexus
 add_lunch_combo revolt_maguro-userdebug
-# N7000
-add_lunch_combo revolt_n7000-userdebug
-# N7100
-add_lunch_combo revolt_n7100-userdebug
-# I9300
+
+## Samsung Phones
+# Galaxy S2
+add_lunch_combo revolt_i9100-userdebug
+# Galaxy S2G
+add_lunch_combo revolt_i9100g-userdebug
+# Galaxy S3
 add_lunch_combo revolt_i9300-userdebug
-# D710
+# Epic 4G
 add_lunch_combo revolt_d710-userdebug
-# I9500
+# Galaxy S4
 add_lunch_combo revolt_i9500-userdebug
+# T-Mobile Galaxy S4
+add_lunch_combo revolt_jfltetmo-userdebug
+# Canadian Galaxy S4
+add_lunch_combo revolt_jfltecan-userdebug
+# USCC Galaxy S4
+add_lunch_combo revolt_jflteusc-userdebug
+# Sprint Galaxy S4
+add_lunch_combo revolt_jfltespr-userdebug
+
+## Samsung Phablets
+# Galaxy Note
+add_lunch_combo revolt_n7000-userdebug
+# Galaxy Note 2
+add_lunch_combo revolt_n7100-userdebug
+
+## Samsung Tablets
+# Galaxy Note 10.1
+add_lunch_combo revolt_n8000-userdebug
+# Galaxy Note 10.1 (US Variant)
+add_lunch_combo revolt_n8010-userdebug
+# Galaxy Note 10.1 (Variant)
+add_lunch_combo revolt_n8013-userdebug
+
+## Oppo
 # Find5
 add_lunch_combo revolt_find5-userdebug
-# Jfltetmo
-add_lunch_combo revolt_jfltetmo-userdebug
-# Jfltecan
-add_lunch_combo revolt_jfltecan-userdebug
-# JFlteusc
-add_lunch_combo revolt_jflteusc-userdebug
-# M7
+
+## HTC
+# One
 add_lunch_combo revolt_m7-userdebug
-# N8000
-add_lunch_combo revolt_n8000-userdebug
-# N8010
-add_lunch_combo revolt_n8010-userdebug
-# N8013
-add_lunch_combo revolt_n8013-userdebug
-# Manta
-add_lunch_combo revolt_manta-userdebug

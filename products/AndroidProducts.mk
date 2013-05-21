@@ -9,6 +9,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/jfltetmo.mk \
     $(LOCAL_DIR)/jfltecan.mk \
     $(LOCAL_DIR)/jflteusc.mk \
+    $(LOCAL_DIR)/jfltespr.mk \
     $(LOCAL_DIR)/n8000.mk \
     $(LOCAL_DIR)/n8010.mk \
     $(LOCAL_DIR)/n8013.mk \
