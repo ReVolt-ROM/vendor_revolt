@@ -27,6 +27,8 @@ add_lunch_combo revolt_jfltecan-userdebug
 add_lunch_combo revolt_jflteusc-userdebug
 # Sprint Galaxy S4
 add_lunch_combo revolt_jfltespr-userdebug
+# Verizon Galaxy S4
+add_lunch_combo revolt_jfltevzw-userdebug
 
 ## Samsung Phablets
 # Galaxy Note
