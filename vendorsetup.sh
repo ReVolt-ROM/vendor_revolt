@@ -51,3 +51,9 @@ add_lunch_combo revolt_find5-userdebug
 ## HTC
 # One
 add_lunch_combo revolt_m7-userdebug
+
+## Sony
+# odin
+add_lunch_combo revolt_odin-userdebug
+# yuga
+add_lunch_combo revolt_yuga-userdebug
