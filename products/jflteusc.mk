@@ -25,5 +25,5 @@ OVERLAY_TARGET := pa_xxhdpi
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
-    vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/revolt/prebuilt/bootanimation/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
 
