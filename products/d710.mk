@@ -19,6 +19,7 @@ PRODUCT_RELEASE_NAME := GT-I9100
 
 # PA OVERLAY_TARGET
 OVERLAY_TARGET := pa_hdpi
+PA_DIFF_PREF := pa_fix
 
 # Copy maguro specific prebuilt files
 PRODUCT_COPY_FILES += \
