@@ -15,6 +15,8 @@ add_lunch_combo revolt_i9100-userdebug
 add_lunch_combo revolt_i9100g-userdebug
 # Galaxy S3
 add_lunch_combo revolt_i9300-userdebug
+# Galaxy S3 Srpint
+add_lunch_combo revolt_d2spr-userdebug
 # Epic 4G
 add_lunch_combo revolt_d710-userdebug
 # Galaxy S4
