@@ -20,5 +20,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/find5.mk \
     $(LOCAL_DIR)/n7100.mk \
     $(LOCAL_DIR)/m7.mk \
+    $(LOCAL_DIR)/d2spr.mk \
     $(LOCAL_DIR)/odin.mk \
     $(LOCAL_DIR)/yuga.mk
