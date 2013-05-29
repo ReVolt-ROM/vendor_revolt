@@ -33,6 +33,8 @@ add_lunch_combo revolt_jflteusc-userdebug
 add_lunch_combo revolt_jfltespr-userdebug
 # Verizon Galaxy S4
 add_lunch_combo revolt_jfltevzw-userdebug
+# AT&T Galaxy S4
+add_lunch_combo revolt_jflteatt-userdebug
 
 ## Samsung Phablets
 # Galaxy Note
@@ -61,3 +63,7 @@ add_lunch_combo revolt_m7-userdebug
 add_lunch_combo revolt_odin-userdebug
 # yuga
 add_lunch_combo revolt_yuga-userdebug
+
+## Asus
+# tf300t
+add_lunch_combo revolt_tf300t-userdebug
