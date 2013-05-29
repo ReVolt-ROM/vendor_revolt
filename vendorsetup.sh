@@ -56,7 +56,13 @@ add_lunch_combo revolt_find5-userdebug
 
 ## HTC
 # One
-add_lunch_combo revolt_m7-userdebug
+add_lunch_combo revolt_m7ul-userdebug
+# Sprint One
+add_lunch_combo revolt_m7spr-userdebug
+# T-Mobile One
+add_lunch_combo revolt_m7tmo-userdebug
+# AT&T One
+add_lunch_combo revolt_m7att-userdebug
 
 ## Sony
 # odin
