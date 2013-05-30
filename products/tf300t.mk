@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for tf300t
-$(call inherit-product, device/samsung/tf300t/full_tf300t.mk)
+$(call inherit-product, device/asus/tf300t/full_tf300t.mk)
 
 # Inherit AOKP common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)

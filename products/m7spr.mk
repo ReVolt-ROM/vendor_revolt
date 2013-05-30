@@ -1,5 +1,5 @@
-# Inherit AOSP device configuration for mako.
-$(call inherit-product, device/htc/m7spr/device.mk)
+# Inherit AOSP device configuration for n7spr.
+$(call inherit-product, device/htc/m7spr/full_m7spr.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/revolt/configs/common.mk)
