@@ -163,7 +163,7 @@ rm -rf $REPACK/ota/recovery
 
 # If loki_flash is enabled swap in boot.lok aboot image
 DEVICE=`sed -n -e'/ro.product.device/s/^.*=//p' $REPACK/ota/system/build.prop`
-if [ "$DEVICE" = "jfltevzw" ]; then
+f [ "$DEVICE" = "jfltevzw" ]; then
     echo "'Loki'-fying...."
     PREBUILT=$ANDROID_BUILD_TOP/vendor/aokp/prebuilt/jfltevzw
     IN=$REPACK/ota/boot.img
