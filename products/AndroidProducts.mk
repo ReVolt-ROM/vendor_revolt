@@ -12,6 +12,10 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/jfltevzw.mk \
     $(LOCAL_DIR)/jfltespr.mk \
     $(LOCAL_DIR)/jflteatt.mk \
+    $(LOCAL_DIR)/m7att.mk \
+    $(LOCAL_DIR)/m7spr.mk \
+    $(LOCAL_DIR)/m7tmo.mk \
+    $(LOCAL_DIR)/m7ul.mk \
     $(LOCAL_DIR)/n8000.mk \
     $(LOCAL_DIR)/n8010.mk \
     $(LOCAL_DIR)/n8013.mk \
