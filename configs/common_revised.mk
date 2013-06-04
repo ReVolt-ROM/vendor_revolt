@@ -6,7 +6,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/dictionaries
 
 # SuperUser
 SUPERUSER_EMBEDDED := true
-SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
+SUPERUSER_PACKAGE_PREFIX := com.android.settings.rv.superuser
 
 ifneq ($(RV_BUILD),)
 
@@ -149,4 +149,4 @@ PRODUCT_COPY_FILES += \
 include frameworks/base/data/sounds/NewAudio.mk
 
 # Extra Ringtones
-include frameworks/base/data/sounds/AudioPackageNewWave.mk
+#include frameworks/base/data/sounds/AudioPackageNewWave.mk

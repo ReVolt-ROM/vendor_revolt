@@ -22,4 +22,4 @@ PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=pico BUILD_ID=JDQ39 BUILD_FINGERPRINT=htc_europe/htc_pico/pico:2.3.5/GRJ90/207463.1:user/release-keys
 PRIVATE_BUILD_DESC="1.28.401.1 CL207463 release-keys"
 PRODUCT_COPY_FILES += \
-    vendor/revolt/prebuilt/bootanimation/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/revolt/prebuilt/bootanimation/mdpi/bootanimation.zip:system/media/bootanimation.zip
