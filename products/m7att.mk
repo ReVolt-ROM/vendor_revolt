@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for m7att.
-$(call inherit-product, device/htc/m7att/full_m7ul.mk)
+$(call inherit-product, device/htc/m7att/full_m7att.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/revolt/configs/common.mk)
