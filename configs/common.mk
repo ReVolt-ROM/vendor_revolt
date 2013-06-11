@@ -51,6 +51,9 @@ PRODUCT_PACKAGES += \
     FMRadio \
     LockClock \
 
+# Paranoid Packages
+PRODUCT_PACKAGES += \
+    HALO \
 
 # Paranoid Packages and Additions for Hybrid
 ifdef PA_DIFF_PREF
