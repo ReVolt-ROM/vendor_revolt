@@ -19,10 +19,8 @@ add_lunch_combo revolt_i9300-userdebug
 add_lunch_combo revolt_d2spr-userdebug
 # Epic 4G
 add_lunch_combo revolt_d710-userdebug
-# Galaxy S4
-add_lunch_combo revolt_i9500-userdebug
-# Galaxy S4 
-add_lunch_combo revolt_i9505-userdebug
+# Galaxy S4 LTE
+add_lunch_combo revolt_jfltexx-userdebug
 # T-Mobile Galaxy S4
 add_lunch_combo revolt_jfltetmo-userdebug
 # Canadian Galaxy S4
