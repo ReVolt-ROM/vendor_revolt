@@ -5,25 +5,25 @@ DATE = $(shell date +%Y%m%d)
 RV_BRANCH=jb-mr1
 
 ifneq ($(RV_BUILD),)
-        # ReVolt Official Build Details
-        PRODUCT_PROPERTY_OVERRIDES += \
-                ro.goo.developerid=johnhany97 \
-                ro.goo.rom=ReVolt \
-                ro.goo.version=$(DATE) \
-                ro.revolt.version=ReVolt-JB-$(RV_BUILD)-$(TARGET_PRODUCT)
+# ReVolt Official Build Details
+    PRODUCT_PROPERTY_OVERRIDES += \
+        ro.goo.developerid=johnhany97 \
+        ro.goo.rom=ReVolt \
+        ro.goo.version=$(DATE) \
+        ro.revolt.version=ReVolt-JB-$(RV_BUILD)-$(TARGET_PRODUCT)
 else
-    ifneq ($(RV_NIGHTLY),)
-        # ReVolt Nightly Build Details
-        PRODUCT_PROPERTY_OVERRIDES += \
-                ro.goo.developerid=johnhany97 \
-                ro.goo.rom=ReVoltNightlies \
-                ro.goo.version=$(DATE) \
-                ro.revolt.version=ReVolt-JB-$(TARGET_PRODUCT)-Nightly-$(DATE)
-     else
-        # ReVolt Unofficial Build Details
-        PRODUCT_PROPERTY_OVERRIDES += \
-                ro.revolt.version=ReVolt-JB-$(TARGET_PRODUCT)-UNOFFICIAL-$(DATE)
-     endif
+ifneq ($(RV_NIGHTLY),)
+# ReVolt Nightly Build Details
+    PRODUCT_PROPERTY_OVERRIDES += \
+        ro.goo.developerid=johnhany97 \
+        ro.goo.rom=ReVoltNightlies \
+        ro.goo.version=$(DATE) \
+        ro.revolt.version=ReVolt-JB-$(TARGET_PRODUCT)-Nightly-$(DATE)
+else
+# ReVolt UnOfficial Build Details
+    PRODUCT_PROPERTY_OVERRIDES += \
+        ro.revolt.version=ReVolt-JB-$(TARGET_PRODUCT)-Unofficial-$(DATE)
+endif
 endif
 
 # ReVolt Statistics
