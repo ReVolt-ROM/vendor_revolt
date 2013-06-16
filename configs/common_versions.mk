@@ -22,6 +22,7 @@ ifneq ($(RV_NIGHTLY),)
 else
 # ReVolt UnOfficial Build Details
     PRODUCT_PROPERTY_OVERRIDES += \
+	ro.goo.version=$(DATE) \
         ro.revolt.version=ReVolt-JB-$(TARGET_PRODUCT)-Unofficial-$(DATE)
 endif
 endif
