@@ -33,6 +33,8 @@ add_lunch_combo revolt_jfltespr-userdebug
 add_lunch_combo revolt_jfltevzw-userdebug
 # AT&T Galaxy S4
 add_lunch_combo revolt_jflteatt-userdebug
+# Galaxy Advance
+add_lunch_combo revolt_janice-userdebug
 
 ## Samsung Phablets
 # Galaxy Note

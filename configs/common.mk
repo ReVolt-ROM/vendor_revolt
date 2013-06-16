@@ -56,13 +56,8 @@ PRODUCT_PACKAGES += \
     HALO \
 
 # Paranoid Packages and Additions for Hybrid
-ifdef PA_DIFF_PREF
-PRODUCT_PACKAGES += \
-    PAPrefs
-else
 PRODUCT_PACKAGES += \
     ParanoidPreferences
-endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pa.family=$(OVERLAY_TARGET)

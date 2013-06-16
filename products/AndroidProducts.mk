@@ -27,4 +27,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/d2spr.mk \
     $(LOCAL_DIR)/odin.mk \
     $(LOCAL_DIR)/yuga.mk \
-    $(LOCAL_DIR)/tf300t.mk
+    $(LOCAL_DIR)/tf300t.mk \
+    $(LOCAL_DIR)/janice.mk \
