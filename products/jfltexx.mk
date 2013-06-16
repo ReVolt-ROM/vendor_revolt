@@ -13,7 +13,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/i9500
 # Setup device specific product configuration.
 PRODUCT_NAME := revolt_jfltexx
 PRODUCT_BRAND := Samsung
-PRODUCT_DEVICE := i9505
+PRODUCT_DEVICE := jfltexx
 PRODUCT_MODEL := GT-I9505
 PRODUCT_MANUFACTURER := samsung
 
