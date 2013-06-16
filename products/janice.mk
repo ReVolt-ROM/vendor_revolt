@@ -24,4 +24,4 @@ OVERLAY_TARGET := pa_mdpi
 
 # Copy maguro specific prebuilt files
 PRODUCT_COPY_FILES += \
-    vendor/revolt/prebuilt/bootanimation/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/revolt/prebuilt/bootanimation/mdpi/bootanimation.zip:system/media/bootanimation.zip
