@@ -41,7 +41,7 @@ PRODUCT_PACKAGES += \
     Microbes \
     mGerrit \
     PermissionsManager \
-    ROMControl \
+    ReVoltControl \
     Superuser \
     Su \
     Torch
