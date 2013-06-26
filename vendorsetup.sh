@@ -63,6 +63,9 @@ add_lunch_combo revolt_m7spr-userdebug
 add_lunch_combo revolt_m7tmo-userdebug
 # AT&T One
 add_lunch_combo revolt_m7att-userdebug
+# Explorer 
+add_lunch_combo revolt_pico-userdebug
+
 
 ## Sony
 # odin
