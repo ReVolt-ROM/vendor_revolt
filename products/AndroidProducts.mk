@@ -17,6 +17,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/n8010.mk \
     $(LOCAL_DIR)/n8013.mk \
     $(LOCAL_DIR)/manta.mk \
+    $(LOCAL_DIR)/pico.mk \
     $(LOCAL_DIR)/d710.mk \
     $(LOCAL_DIR)/find5.mk \
     $(LOCAL_DIR)/n7100.mk \
