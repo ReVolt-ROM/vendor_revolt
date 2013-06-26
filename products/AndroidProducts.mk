@@ -29,3 +29,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/yuga.mk \
     $(LOCAL_DIR)/tf300t.mk \
     $(LOCAL_DIR)/janice.mk \
+    $(LOCAL_DIR)/pico.mk \
