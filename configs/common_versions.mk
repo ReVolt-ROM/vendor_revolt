@@ -29,7 +29,8 @@ endif
 
 # ReVolt Statistics
 PRODUCT_PROPERTY_OVERRIDES += \
-        ro.revolt.branch=$(RV_BRANCH)
+        ro.revolt.branch=$(RV_BRANCH) \
+        ro.revolt.device=$(RV_PRODUCT)
 
 # Camera shutter sound property
 PRODUCT_PROPERTY_OVERRIDES += \
