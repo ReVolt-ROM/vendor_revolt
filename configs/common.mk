@@ -48,6 +48,7 @@ PRODUCT_PACKAGES += \
 
 # CM Packages
 PRODUCT_PACKAGES += \
+    Apollo \
     FMRadio \
     LockClock \
 
