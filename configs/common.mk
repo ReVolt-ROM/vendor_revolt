@@ -8,7 +8,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/dictionaries
 SUPERUSER_EMBEDDED := true
 SUPERUSER_PACKAGE_PREFIX := com.android.settings.rv.superuser
 
-ifneq ($(RV_BUILD),)
+ifdef AROMA
 
 # NOTHING
 
@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     DSPManager \
     libcyanogen-dsp \
-    CMFileManager
+    CMFileManager \
+    Apollo
 
 endif
 
@@ -49,7 +50,6 @@ PRODUCT_PACKAGES += \
 
 # CM Packages
 PRODUCT_PACKAGES += \
-    Apollo \
     FMRadio \
     LockClock \
 

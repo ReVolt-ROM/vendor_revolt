@@ -23,5 +23,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=m0xx TARGET_DEVICE=m0 BUILD_FINGERP
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
+ifneq ($(RV_BUILD),)
+AROMA := TRUE
+else
+#NOTHING
+endif
+
 # PA OVERLAY_TARGET
 OVERLAY_TARGET := pa_i9300
