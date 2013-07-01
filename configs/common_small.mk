@@ -26,7 +26,10 @@ PRODUCT_PACKAGES += \
     GooManager \
     FontSize \
     ReVoltLauncher \
-    ReVoltPapers  
+    ReVoltPapers \
+    Welcome \
+    ReVoltControl 
+    
 
 # AOKP Packages
 PRODUCT_PACKAGES += \
@@ -34,7 +37,6 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     mGerrit \
     PermissionsManager \
-    ROMControl \
     Superuser \
     Su 
 
