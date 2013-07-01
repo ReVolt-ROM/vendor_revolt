@@ -31,7 +31,9 @@ PRODUCT_PACKAGES += \
     ReVoltLauncher \
     ReVoltPapers \
     Maps \
-    YouTube
+    YouTube \
+    Welcome \
+    ReVoltControl
 
 # AOKP Packages
 PRODUCT_PACKAGES += \
@@ -41,7 +43,6 @@ PRODUCT_PACKAGES += \
     Microbes \
     mGerrit \
     PermissionsManager \
-    ROMControl \
     Superuser \
     Su \
     Torch
