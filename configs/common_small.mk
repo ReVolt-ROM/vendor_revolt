@@ -126,7 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/$(PA_CONF_SOURCE).conf:system/etc/paranoid/backup.conf 
 
 # Inherit common build.prop overrides
--include vendor/revolt/configs/common_versions_2.mk
+-include vendor/revolt/configs/common_versions.mk
 
 # T-Mobile theme engine
 -include vendor/revolt/configs/themes_common.mk
