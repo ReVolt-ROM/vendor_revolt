@@ -8,20 +8,26 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/dictionaries
 SUPERUSER_EMBEDDED := true
 SUPERUSER_PACKAGE_PREFIX := com.android.settings.rv.superuser
 
-ifdef AROMA
-
-# NOTHING
-
+ifneq ($(RV_BUILD),)
+     ifdef AROMA
+     # NOTHING
+     else
+     # CM Packages
+     PRODUCT_PACKAGES += \
+        audio_effects.conf \
+        DSPManager \
+        libcyanogen-dsp \
+        CMFileManager \
+        Apollo
+     endif
 else
-
-# CM Packages
-PRODUCT_PACKAGES += \
-    audio_effects.conf \
-    DSPManager \
-    libcyanogen-dsp \
-    CMFileManager \
-    Apollo
-
+     # CM Packages
+     PRODUCT_PACKAGES += \
+        audio_effects.conf \
+        DSPManager \
+        libcyanogen-dsp \
+        CMFileManager \
+        Apollo
 endif
 
 # ReVolt Packages
@@ -142,16 +148,17 @@ PRODUCT_COPY_FILES += \
 # T-Mobile theme engine
 -include vendor/revolt/configs/themes_common.mk
 
+# Google Apps
 ifneq ($(RV_BUILD),)
-
-# Google Apps
--include vendor/google/gapps_common.mk
-
+     ifdef AROMA
+     #NO GAPPS
+     else
+     # Google Apps
+     -include vendor/google/gapps_common.mk
+     endif
 else
-
-# Google Apps
-#-include vendor/google/gapps_common.mk
-
+    # Google Apps
+    #-include vendor/google/gapps_common.mk
 endif
 
 # Bring in all audio files
