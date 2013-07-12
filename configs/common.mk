@@ -37,7 +37,6 @@ PRODUCT_PACKAGES += \
     StreetView \
     ReVoltLauncher \
     ReVoltPapers \
-    Maps \
     YouTube \
     Welcome \
     ReVoltControl
