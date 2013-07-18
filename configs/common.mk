@@ -55,6 +55,7 @@ PRODUCT_PACKAGES += \
 
 # CM Packages
 PRODUCT_PACKAGES += \
+    Babel \
     FMRadio \
     LockClock \
 
