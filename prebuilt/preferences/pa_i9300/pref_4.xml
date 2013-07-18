@@ -1,8 +1,8 @@
 <property name="Tablet UI" active="true" image="/system/etc/paranoid/preferences/images/tablet.png" color="#51ab27">
 
         <description><![CDATA[
-This will put your device into 220 DPI/1000p Tablet UI, none of your apps will be changed.
-]]></description>
+            This will put your device into 220 DPI/1000p Tablet UI, none of your apps will be changed.
+        ]]></description>
         <setting type="Hybrid" target="%hybrid_mode" value="1"/>
         <setting type="Hybrid" target="com.android.systemui.dpi" value="220"/>
         <setting type="Hybrid" target="com.android.systemui.layout" value="1000"/>
