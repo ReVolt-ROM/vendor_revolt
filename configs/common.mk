@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/common/etc/init.local.rc:root/init.aokp.rc \
     vendor/revolt/prebuilt/common/etc/init.d/00start:system/etc/init.d/00start \
     vendor/revolt/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
+    vendor/revolth/prebuilt/common/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel \
     vendor/revolt/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
     vendor/revolt/prebuilt/common/bin/sysinit:system/bin/sysinit
 
