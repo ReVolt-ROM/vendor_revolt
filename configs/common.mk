@@ -98,6 +98,18 @@ PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/common/bin/sysinit:system/bin/sysinit \
     vendor/revolt/prebuilt/common/etc/init.d/ANice:system/etc/init.d/ANice
 
+# Tweaks
+PRODUCT_PROPERTY_OVERRIDES += \
+        debug.performance.tuning=1 \
+        video.accelerate.hw=1 \
+        persist.sys.purgeable_assets=1 \
+        windowsmgr.max_events_per_sec=90 \
+        ro.max.fling_velocity=12000 \
+        ro.min.fling_velocity=8000 \
+        pm.sleep_mode=1 \
+        ro.ril.disable.power.collapse=0 \
+        ro.ril.fast.dormancy.rule=0
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
