@@ -61,3 +61,7 @@ add_lunch_combo revolt_m7-userdebug
 add_lunch_combo revolt_odin-userdebug
 # yuga
 add_lunch_combo revolt_yuga-userdebug
+
+## LG
+# Sprint Lg Optimus G
+add_lunch_combo revolt_geehrc4g_spr_us-userdebug
