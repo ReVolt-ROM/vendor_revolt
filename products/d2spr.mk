@@ -24,4 +24,4 @@ PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # PA OVERLAY_TARGET
-OVERLAY_TARGET := pa_xhdpi
+OVERLAY_TARGET := pa_i9300
