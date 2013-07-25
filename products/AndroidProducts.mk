@@ -23,4 +23,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/d2spr.mk \
     $(LOCAL_DIR)/d2att.mk \
     $(LOCAL_DIR)/odin.mk \
+    $(LOCAL_DIR)/geehrc4g_spr_us.mk \
     $(LOCAL_DIR)/yuga.mk
