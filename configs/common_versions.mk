@@ -2,7 +2,7 @@
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_UTC_DATE=$(shell date +"%s")
 
 DATE = $(shell date +%Y%m%d)
-RV_BRANCH=jb-mr1
+RV_BRANCH=jb-mr2
 
 ifneq ($(RV_BUILD),)
 # ReVolt Official Build Details
@@ -19,6 +19,14 @@ ifneq ($(RV_NIGHTLY),)
         ro.goo.rom=ReVoltNightlies \
         ro.goo.version=$(DATE) \
         ro.revolt.version=ReVolt-JB-$(TARGET_PRODUCT)-Nightly-$(DATE)
+else
+ifneq ($(RV_ALPHA),)
+# ReVolt Alpha Build Details
+    PRODUCT_PROPERTY_OVERRIDES += \
+        ro.goo.developerid=johnhany97 \
+        ro.goo.rom=ReVoltALPHA \
+        ro.goo.version=$(DATE) \
+        ro.revolt.version=ReVolt-JB-$(TARGET_PRODUCT)-ALPHA-$(DATE)
 else
 # ReVolt UnOfficial Build Details
     PRODUCT_PROPERTY_OVERRIDES += \

@@ -33,8 +33,6 @@ add_lunch_combo revolt_jfltespr-userdebug
 add_lunch_combo revolt_jfltevzw-userdebug
 # AT&T Galaxy S4
 add_lunch_combo revolt_jflteatt-userdebug
-# Galaxy Advance
-add_lunch_combo revolt_janice-userdebug
 
 ## Samsung Phablets
 # Galaxy Note
@@ -72,7 +70,3 @@ add_lunch_combo revolt_pico-userdebug
 add_lunch_combo revolt_odin-userdebug
 # yuga
 add_lunch_combo revolt_yuga-userdebug
-
-## Asus
-# tf300t
-add_lunch_combo revolt_tf300t-userdebug

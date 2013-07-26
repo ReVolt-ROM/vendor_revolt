@@ -206,11 +206,11 @@ cd `dirname $OUTFILE`
 $MD5 $img >$img.md5sum
 ZIPSIZE=`ls -lah $OUTFILE | awk '{ print $5}' `
 echo -e
-echo -e $CL_CYN"==================- ReVolt Package complete-=================="$CL_RST
+echo -e $CL_CYN"==================- ReVolt Package complete -=================="$CL_RST
 echo -e $CL_CYN"Zip:"$CL_MAG" $OUTFILE"$CL_RST
 echo -e $CL_CYN"MD5:"$CL_MAG" $(cat $img.md5sum | awk '{ print $1 }')"$CL_RST
 echo -e $CL_CYN"Size:"$CL_MAG" $ZIPSIZE"$CL_RST
-echo -e $CL_CYN"=============================================================="$CL_RST
+echo -e $CL_CYN"==============================================================="$CL_RST
 echo -e
 )
 
