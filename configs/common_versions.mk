@@ -34,6 +34,7 @@ else
         ro.revolt.version=ReVolt-JB-$(TARGET_PRODUCT)-Unofficial-$(DATE)
 endif
 endif
+endif
 
 # ReVolt Statistics
 PRODUCT_PROPERTY_OVERRIDES += \
