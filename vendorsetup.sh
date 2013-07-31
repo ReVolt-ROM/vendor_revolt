@@ -3,6 +3,8 @@
 add_lunch_combo revolt_mako-userdebug
 # Nexus 7
 add_lunch_combo revolt_grouper-userdebug
+# New Nexus 7
+add_lunch_combo revolt_flo-userdebug
 # Nexus 10
 add_lunch_combo revolt_manta-userdebug
 # Galaxy Nexus
