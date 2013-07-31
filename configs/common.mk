@@ -50,7 +50,7 @@ PRODUCT_PACKAGES += \
     mGerrit \
     PermissionsManager \
     Superuser \
-    Su \
+    su \
     Torch
 
 # CM Packages
