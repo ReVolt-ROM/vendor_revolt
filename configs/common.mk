@@ -95,8 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
     vendor/revolt/prebuilt/common/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel \
     vendor/revolt/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
-    vendor/revolt/prebuilt/common/bin/sysinit:system/bin/sysinit \
-    vendor/revolt/prebuilt/common/etc/init.d/ANice:system/etc/init.d/ANice
+    vendor/revolt/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # Tweaks
 PRODUCT_PROPERTY_OVERRIDES += \
