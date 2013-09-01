@@ -55,6 +55,7 @@ PRODUCT_PACKAGES += \
 
 # CM Packages
 PRODUCT_PACKAGES += \
+    Focal \
     VoicePlus \
     FMRadio \
     LockClock \
@@ -82,7 +83,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     windowsmgr.max_events_per_sec=240 \
     ro.kernel.android.checkjni=0 \
     ro.adb.secure=0 \
-    persist.sys.root_access=3
+    persist.sys.root_access=3 \
+    ro.build.selinux=1 
 
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
