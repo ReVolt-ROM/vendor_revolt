@@ -9,5 +9,14 @@
         <item>com.android.location.fused</item>
         <!-- The Google Network Location Services location provider -->
         <item>com.google.android.location</item>
-</string-array>
+    </string-array>
+
+    <bool name="config_cellBroadcastAppLinks">true</bool>
+
+    <!-- Disable stock OTA components if installed -->
+    <string-array name="config_disabledComponents" translatable="false">
+        <item>com.google.android.gsf/com.google.android.gsf.update.SystemUpdateActivity</item>
+        <item>com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService</item>
+        <item>com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$Receiver</item>
+    </string-array>
 </resources>
