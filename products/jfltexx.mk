@@ -1,10 +1,7 @@
 # Inherit AOSP device configuration for jfltexx.
 $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 
-# Inherit GSM common stuff
-$(call inherit-product, vendor/revolt/configs/gsm.mk)
-
-# Inherit Common bits
+# Inherit ReVolt common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
 # Samsung Galaxy S4 Overlays
@@ -26,4 +23,3 @@ OVERLAY_TARGET := pa_xxhdpi
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip
-

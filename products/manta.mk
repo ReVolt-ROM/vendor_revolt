@@ -1,11 +1,8 @@
 # Inherit AOSP device configuration for manta
 $(call inherit-product, device/samsung/manta/full_manta.mk)
 
-# Inherit AOKP common bits
+# Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
-
-# Inherit GSM common stuff
-$(call inherit-product, vendor/revolt/configs/gsm.mk)
 
 # Manta Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/manta

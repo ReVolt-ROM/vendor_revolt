@@ -1,7 +1,7 @@
 # Inherit AOSP device configuration for grouper
 $(call inherit-product, device/asus/grouper/full_grouper.mk)
 
-# Inherit AOKP common_tablet bits
+# Inherit ReVolt common_tablet bits
 $(call inherit-product, vendor/revolt/configs/common_tablet.mk)
 
 # Grouper Overlay

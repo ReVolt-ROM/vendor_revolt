@@ -1,10 +1,7 @@
 # Inherit AOSP device configuration for jfltespr.
 $(call inherit-product, device/samsung/jfltespr/full_jfltespr.mk)
 
-# Inherit GSM common stuff
-$(call inherit-product, vendor/revolt/configs/gsm.mk)
-
-# Inherit Common bits
+# Inherit ReVolt Common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
 # Samsung Galaxy S4 Overlays

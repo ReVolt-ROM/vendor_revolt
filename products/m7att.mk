@@ -1,11 +1,8 @@
 # Inherit AOSP device configuration for m7att.
 $(call inherit-product, device/htc/m7att/full_m7att.mk)
 
-# Inherit common product files.
+# Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
-
-# Inherit GSM common stuff
-$(call inherit-product, vendor/revolt/configs/gsm.mk)
 
 # M7 Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/m7
@@ -27,4 +24,3 @@ OVERLAY_TARGET := pa_xxhdpi
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip
-

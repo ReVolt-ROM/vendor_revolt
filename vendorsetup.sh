@@ -3,7 +3,7 @@
 add_lunch_combo revolt_mako-userdebug
 # Nexus 7
 add_lunch_combo revolt_grouper-userdebug
-# New Nexus 7
+# Nexus 7 FHD
 add_lunch_combo revolt_flo-userdebug
 # Nexus 10
 add_lunch_combo revolt_manta-userdebug
@@ -19,7 +19,7 @@ add_lunch_combo revolt_i9100g-userdebug
 add_lunch_combo revolt_i9300-userdebug
 # Sprint Galaxy S3
 add_lunch_combo revolt_d2spr-userdebug
-# Epic 4G
+# Epic 4G (Sprint Galaxy S2)
 add_lunch_combo revolt_d710-userdebug
 # Galaxy S4 LTE
 add_lunch_combo revolt_jfltexx-userdebug
@@ -65,7 +65,6 @@ add_lunch_combo revolt_m7tmo-userdebug
 add_lunch_combo revolt_m7att-userdebug
 # Explorer 
 add_lunch_combo revolt_pico-userdebug
-
 
 ## Sony
 # odin

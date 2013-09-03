@@ -1,13 +1,10 @@
 # Inherit AOSP device configuration for jfltevzw.
 $(call inherit-product, device/samsung/jfltevzw/full_jfltevzw.mk)
 
-# Inherit common cdma apns
-$(call inherit-product, vendor/revolt/configs/cdma.mk)
-
 # Inherit common Verizon Wireless Perms and Lib
 $(call inherit-product, vendor/revolt/configs/vzw.mk)
 
-# Inherit common product files.
+# Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
 # Samsung Galaxy S4 Overlays
@@ -30,4 +27,3 @@ OVERLAY_TARGET := pa_xxhdpi
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip
-

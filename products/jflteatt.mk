@@ -1,9 +1,6 @@
 # Inherit AOSP device configuration for jflteatt.
 $(call inherit-product, device/samsung/jflteatt/full_jflteatt.mk)
 
-# Inherit common cdma apns
-$(call inherit-product, vendor/revolt/configs/cdma.mk)
-
 # Inherit common product files.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
@@ -26,4 +23,3 @@ OVERLAY_TARGET := pa_xxhdpi
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip
-

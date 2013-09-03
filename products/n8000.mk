@@ -1,11 +1,8 @@
 # Inherit AOSP device configuration for n8000
 $(call inherit-product, device/samsung/n8000/full_n8000.mk)
 
-# Inherit AOKP common bits
+# Inherit ReVolt common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
-
-# Inherit GSM common stuff
-$(call inherit-product, vendor/revolt/configs/gsm.mk)
 
 # N8000 Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/n8000

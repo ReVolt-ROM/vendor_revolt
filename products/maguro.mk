@@ -1,10 +1,7 @@
 # Inherit AOSP device configuration for maguro.
 $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 
-# Inherit GSM common stuff
-$(call inherit-product, vendor/revolt/configs/gsm.mk)
-
-# Inherit common bits
+# Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
 # Maguro Overlay
@@ -27,6 +24,6 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=yakju BUILD_FINGERPRINT=google/yakj
 PRODUCT_PACKAGES += \
     Thinkfree
 
-# Copy Bootanimation
+# Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip

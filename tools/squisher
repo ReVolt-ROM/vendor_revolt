@@ -192,13 +192,14 @@ echo -e $CL_CYN"Cleaning up..."$CL_RST
 rm -rf $REPACK
 echo -e
 
-echo -e $CL_RED""$CL_RST"   ______ "$CL_MAG"   ______"$CL_CYN"    __   __ "$CL_BLU" ______    "$CL_GRN"__       "$CL_YLW"______  "$CL_RST" "
-echo -e $CL_RED""$CL_RST"  /\  == \ "$CL_MAG" /\  ___\ "$CL_CYN" /\ \ / /"$CL_BLU" /\  __ \  "$CL_GRN"/\ \     "$CL_YLW"/\__  _\ "$CL_RST" "
-echo -e $CL_RED""$CL_RST"  \ \  __< "$CL_MAG" \ \  __\ "$CL_CYN" \ \ \'/ "$CL_BLU" \ \ \/\ \ $CL_GRN\ \ \____"$CL_YLW"\/_/\ \/ "$CL_RST" "
-echo -e $CL_RED""$CL_RST"   \ \_\ \_\ "$CL_MAG"\ \_____\ "$CL_CYN"\ \__|  "$CL_BLU" \ \_____\ "$CL_GRN"\ \_____\  "$CL_YLW"\ \_\ "$CL_RST" "
-echo -e $CL_RED""$CL_RST"    \/_/ /_/"$CL_MAG"  \/_____/"$CL_CYN"  \/_/    "$CL_BLU" \/_____/  "$CL_GRN"\/_____/   "$CL_YLW"\/_/ "$CL_RST" "
-echo -e $CL_RST""$CL_RST"                                                            "
-                
+
+echo -e "   ______ "$CL_MAG"   ______"$CL_CYN"    __   __ "$CL_BLU" ______    "$CL_GRN"__       "$CL_YLW"______  "$CL_RST" "
+echo -e "  /\  == \ "$CL_MAG" /\  ___\ "$CL_CYN" /\ \ / /"$CL_BLU" /\  __ \  "$CL_GRN"/\ \     "$CL_YLW"/\__  _\ "$CL_RST" "
+echo -e "  \ \  __< "$CL_MAG" \ \  __\ "$CL_CYN" \ \ \'/ "$CL_BLU" \ \ \/\ \ $CL_GRN\ \ \____"$CL_YLW"\/_/\ \/ "$CL_RST" "
+echo -e "   \ \_\ \_\ "$CL_MAG"\ \_____\ "$CL_CYN"\ \__|  "$CL_BLU" \ \_____\ "$CL_GRN"\ \_____\  "$CL_YLW"\ \_\ "$CL_RST" "
+echo -e "    \/_/ /_/"$CL_MAG"  \/_____/"$CL_CYN"  \/_/    "$CL_BLU" \/_____/  "$CL_GRN"\/_____/   "$CL_YLW"\/_/ "$CL_RST" "
+echo -e ""
+
 # Create a md5 checksum image of the repacked package
 (
 img=`basename $OUTFILE`

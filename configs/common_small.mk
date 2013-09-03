@@ -28,8 +28,7 @@ PRODUCT_PACKAGES += \
     ReVoltLauncher \
     ReVoltPapers \
     Welcome \
-    ReVoltControl 
-    
+    ReVoltControl
 
 # AOKP Packages
 PRODUCT_PACKAGES += \
@@ -150,3 +149,5 @@ include frameworks/base/data/sounds/NewAudio.mk
 
 # Extra Ringtones
 #include frameworks/base/data/sounds/AudioPackageNewWave.mk
+
+

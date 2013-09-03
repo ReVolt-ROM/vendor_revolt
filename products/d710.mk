@@ -1,11 +1,8 @@
 # Inherit AOSP device configuration for d710.
 $(call inherit-product, device/samsung/d710/full_d710.mk)
 
-# Inherit AOKP common bits
+# Inherit ReVolt common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
-
-# Inherit GSM common stuff
-$(call inherit-product, vendor/revolt/configs/gsm.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := revolt_d710
@@ -21,6 +18,6 @@ PRODUCT_RELEASE_NAME := GT-I9100
 OVERLAY_TARGET := pa_hdpi
 PA_DIFF_PREF := pa_fix
 
-# Copy maguro specific prebuilt files
+# Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/hdpi/bootanimation.zip:system/media/bootanimation.zip

@@ -1,11 +1,8 @@
 # Inherit AOSP device configuration for odin
 $(call inherit-product-if-exists, device/sony/odin/full_odin.mk)
 
-# Inherit common product files.
+# Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
-
-# Inherit GSM common stuff
-$(call inherit-product, vendor/revolt/configs/gsm.mk)
 
 # Odin overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/odin
@@ -19,7 +16,7 @@ PRODUCT_MANUFACTURER := Sony
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=C6503_1271-0336 BUILD_FINGERPRINT=Sony/C6503_1271-0336/C6503:4.1.2/10.1.A.1.434/Tfp_rw:user/release-keys PRIVATE_BUILD_DESC="C6503-user 4.1.2 10.1.A.1.434 Tfp_rw test-keys"
 
-#skip asserts for now
+# skip asserts for now
 TARGET_OTA_ASSERT_SKIP := true
 
 # Boot Animation

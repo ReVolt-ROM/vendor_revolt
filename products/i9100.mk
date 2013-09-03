@@ -1,11 +1,8 @@
-# Inherit AOSP device configuration for galaxys2.
+# Inherit AOSP device configuration for i9100
 $(call inherit-product, device/samsung/i9100/full_i9100.mk)
 
-# Inherit AOKP common bits
+# Inherit ReVolt common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
-
-# Inherit GSM common stuff
-$(call inherit-product, vendor/revolt/configs/gsm.mk)
 
 # SGS2 overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/i9100
@@ -29,6 +26,6 @@ endif
 # PA OVERLAY_TARGET
 OVERLAY_TARGET := pa_hdpi
 
-# Copy maguro specific prebuilt files
+# Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/hdpi/bootanimation.zip:system/media/bootanimation.zip

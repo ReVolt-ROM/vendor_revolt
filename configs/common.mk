@@ -34,7 +34,6 @@ endif
 PRODUCT_PACKAGES += \
     GooManager \
     FontSize \
-    StreetView \
     ReVoltLauncher \
     ReVoltPapers \
     YouTube \
@@ -45,10 +44,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AOKPtips \
     AppWidgetPicker \
+    CellBroadcastReceiver \
     LatinImeDictionaryPack \
     Microbes \
     mGerrit \
     PermissionsManager \
+    Stk \
     Superuser \
     su \
     Torch
@@ -182,3 +183,7 @@ include frameworks/base/data/sounds/NewAudio.mk
 
 # Extra Ringtones
 include frameworks/base/data/sounds/AudioPackageNewWave.mk
+
+# World APN
+PRODUCT_COPY_FILES += \
+    vendor/revolt/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
