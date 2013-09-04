@@ -1,13 +1,10 @@
 # Inherit AOSP device configuration for d2vzw.
 $(call inherit-product, device/samsung/d2vzw/full_d2vzw.mk)
 
-# Inherit common cdma apns
-$(call inherit-product, vendor/revolt/configs/cdma.mk)
-
 # Inherit common Verizon Wireless Perms and Lib
 $(call inherit-product, vendor/revolt/configs/vzw.mk)
 
-# Inherit common product files.
+# Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
 # Samsung Galaxy S3 Overlays
