@@ -19,6 +19,8 @@ add_lunch_combo revolt_i9100g-userdebug
 add_lunch_combo revolt_i9300-userdebug
 # Sprint Galaxy S3
 add_lunch_combo revolt_d2spr-userdebug
+# Verizon Galaxy S3
+add_lunch_combo revolt_d2vzw-userdebug
 # Epic 4G (Sprint Galaxy S2)
 add_lunch_combo revolt_d710-userdebug
 # Galaxy S4 LTE
@@ -71,3 +73,14 @@ add_lunch_combo revolt_pico-userdebug
 add_lunch_combo revolt_odin-userdebug
 # yuga
 add_lunch_combo revolt_yuga-userdebug
+
+##Motorola
+# Atrix HD
+add_lunch_combo revolt_mb886-userdebug
+# Droid Razr M
+add_lunch_combo revolt_xt907-userdebug
+# Droid Razr HD GSM
+add_lunch_combo revolt_xt925-userdebug
+# Droid Razr HD
+add_lunch_combo revolt_xt926-userdebug
+
