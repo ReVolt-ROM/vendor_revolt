@@ -26,6 +26,11 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/m7att.mk \
     $(LOCAL_DIR)/m7tmo.mk \
     $(LOCAL_DIR)/d2spr.mk \
+    $(LOCAL_DIR)/d2vzw.mk \
     $(LOCAL_DIR)/odin.mk \
     $(LOCAL_DIR)/yuga.mk \
-    $(LOCAL_DIR)/pico.mk
+    $(LOCAL_DIR)/pico.mk \
+    $(LOCAL_DIR)/mb886.mk \
+    $(LOCAL_DIR)/xt907.mk \
+    $(LOCAL_DIR)/xt925.mk \
+    $(LOCAL_DIR)/xt926.mk 
