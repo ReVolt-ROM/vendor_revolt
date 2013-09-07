@@ -72,3 +72,7 @@ add_lunch_combo revolt_pico-userdebug
 add_lunch_combo revolt_odin-userdebug
 # yuga
 add_lunch_combo revolt_yuga-userdebug
+
+## Lge
+# Ls970
+add_lunch_combo revolt_ls970-userdebug
