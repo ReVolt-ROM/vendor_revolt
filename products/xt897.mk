@@ -4,9 +4,6 @@ $(call inherit-product, device/motorola/xt897/full_xt897.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
-# Inherit common Verizon Wireless Perms and Lib
-$(call inherit-product, vendor/revolt/configs/vzw.mk)
-
 PRODUCT_PACKAGE_OVERLAYS += vendor/motorola/xt897/overlay
 
 # Setup device specific product configuration.
