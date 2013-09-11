@@ -77,6 +77,10 @@ add_lunch_combo revolt_yuga-userdebug
 ##Motorola
 # Atrix HD
 add_lunch_combo revolt_mb886-userdebug
+# Photon Q GSM
+add_lunch_combo revolt_xt897-userdebug
+# Photon Q CDMA
+add_lunch_combo revolt_xt897c-userdebug
 # Droid Razr M
 add_lunch_combo revolt_xt907-userdebug
 # Droid Razr HD GSM
