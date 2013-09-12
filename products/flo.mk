@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for flo
-$(call inherit-product, device/asus/grouper/full_flo.mk)
+$(call inherit-product, device/asus/flo/full_flo.mk)
 
 # Inherit ReVolt common_tablet bits
 $(call inherit-product, vendor/revolt/configs/common_tablet.mk)
