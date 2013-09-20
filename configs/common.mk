@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
     VoicePlus \
     FMRadio \
     LockClock \
+    BluetoothExt
 
 # Paranoid Packages
 PRODUCT_PACKAGES += \
