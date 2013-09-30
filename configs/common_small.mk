@@ -35,7 +35,6 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     LatinImeDictionaryPack \
     mGerrit \
-    PermissionsManager \
     Superuser \
     Su 
 

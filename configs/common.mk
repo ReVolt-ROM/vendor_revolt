@@ -48,7 +48,6 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     Microbes \
     mGerrit \
-    PermissionsManager \
     Stk \
     Superuser \
     su \
