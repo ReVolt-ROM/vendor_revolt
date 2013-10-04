@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for maguro.
 $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 

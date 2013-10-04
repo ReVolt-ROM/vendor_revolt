@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for i9500.
 $(call inherit-product, device/samsung/i9500/full_i9500.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit common product files.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 

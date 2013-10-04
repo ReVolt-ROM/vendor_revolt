@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for yuga
 $(call inherit-product-if-exists, device/sony/yuga/full_yuga.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 

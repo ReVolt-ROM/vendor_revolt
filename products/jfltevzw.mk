@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for jfltevzw.
 $(call inherit-product, device/samsung/jfltevzw/full_jfltevzw.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/cdma.mk)
+
 # Inherit common Verizon Wireless Perms and Lib
 $(call inherit-product, vendor/revolt/configs/vzw.mk)
 

@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for d710.
 $(call inherit-product, device/samsung/d710/full_d710.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit ReVolt common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
 

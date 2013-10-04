@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for odin
 $(call inherit-product-if-exists, device/sony/odin/full_odin.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 

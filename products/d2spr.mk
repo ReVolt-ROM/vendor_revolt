@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for d2spr.
 $(call inherit-product, device/samsung/d2spr/full_d2spr.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit ReVolt common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
 

@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for m7spr.
 $(call inherit-product, device/htc/m7spr/full_m7spr.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 

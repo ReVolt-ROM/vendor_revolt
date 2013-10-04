@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for jfltexx.
 $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit ReVolt common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
 

@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for n7100.
 $(call inherit-product, device/samsung/n7100/full_n7100.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit ReVolt common bits.
 $(call inherit-product, vendor/revolt/configs/common.mk)
 

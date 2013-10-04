@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for find5.
 $(call inherit-product, device/oppo/find5/full_find5.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit ReVolt common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
 

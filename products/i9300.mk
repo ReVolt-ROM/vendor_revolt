@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for galaxys3.
 $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 
+# Inherit GSM common stuff.
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
+
 # Inherit ReVolt common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
