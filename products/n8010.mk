@@ -20,6 +20,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-N8010 TARGET_DEVICE=GT-N8010 BUI
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip
-
-# PA OVERLAY_TARGET
-OVERLAY_TARGET := pa_n8000

@@ -19,9 +19,6 @@ PRODUCT_MANUFACTURER := Motorola
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=xt926_verizon TARGET_DEVICE=xt926
 BUILD_FINGERPRINT="motorola/XT926_verizon/vanquish:4.1.2/9.8.1Q-62_VQW_MR-2/6:user/release-keys"
 
-# PA OVERLAY_TARGET
-OVERLAY_TARGET := pa_xhdpi
-
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip

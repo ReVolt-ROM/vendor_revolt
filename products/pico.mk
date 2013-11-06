@@ -8,9 +8,6 @@ $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 # Inherit device configuration
 $(call inherit-product, device/htc/pico/pico.mk)
 
-# PA OVERLAY_TARGET
-OVERLAY_TARGET := pa_mdpi
-
 # Product name
 PRODUCT_NAME := revolt_pico
 PRODUCT_BRAND := htc_europe

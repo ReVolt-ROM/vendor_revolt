@@ -19,9 +19,6 @@ PRODUCT_MANUFACTURER := Motorola
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=xt907_verizon TARGET_DEVICE=xt907
 BUILD_FINGERPRINT="motorola/XT907_verizon/scorpion_mini:4.1.2/9.8.1Q-66/1Q-66/28:user/release-keys"
 
-# PA OVERLAY_TARGET
-OVERLAY_TARGET := pa_hdpi
-
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/hdpi/bootanimation.zip:system/media/bootanimation.zip

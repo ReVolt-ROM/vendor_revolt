@@ -7,9 +7,6 @@ $(call inherit-product, vendor/revolt/configs/common_tablet.mk)
 # Flo Overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/flo
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_flo
-
 # Setup device specific product configuration.
 PRODUCT_NAME := revolt_flo
 PRODUCT_BRAND := Google

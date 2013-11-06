@@ -23,6 +23,3 @@ PRODUCT_RELEASE_NAME := n7100
 # Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip
-
-# PA OVERLAY_TARhGET
-OVERLAY_TARGET := pa_n7100

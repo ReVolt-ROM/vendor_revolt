@@ -17,9 +17,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=xt925
 TARGET_DEVICE=xt925 
 BUILD_FINGERPRINT="motorola/xt925/vanquish_u:4.0.4/7.7.1Q-144_VQL_S3-49/346380647:user/release-keys"
 
-# PA OVERLAY_TARGET
-OVERLAY_TARGET := pa_xhdpi
-
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip

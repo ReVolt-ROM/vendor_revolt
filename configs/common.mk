@@ -6,33 +6,11 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/dictionaries
 
 # SuperUser
 SUPERUSER_EMBEDDED := true
-SUPERUSER_PACKAGE_PREFIX := com.android.settings.rv.superuser
-
-ifneq ($(RV_BUILD),)
-     ifdef AROMA
-     # NOTHING
-     else
-     # CM Packages
-     PRODUCT_PACKAGES += \
-        audio_effects.conf \
-        DSPManager \
-        libcyanogen-dsp \
-        CMFileManager \
-        Apollo
-     endif
-else
-     # CM Packages
-     PRODUCT_PACKAGES += \
-        audio_effects.conf \
-        DSPManager \
-        libcyanogen-dsp \
-        CMFileManager \
-        Apollo
-endif
+SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmo.superuser
 
 # ReVolt Packages
 PRODUCT_PACKAGES += \
-    GooManager \
+    Apollo \
     FontSize \
     ReVoltLauncher \
     ReVoltPapers \
@@ -47,7 +25,6 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
     LatinImeDictionaryPack \
     Microbes \
-    mGerrit \
     Stk \
     Superuser \
     su \
@@ -55,22 +32,10 @@ PRODUCT_PACKAGES += \
 
 # CM Packages
 PRODUCT_PACKAGES += \
-    Focal \
     VoicePlus \
     FMRadio \
     LockClock \
     BluetoothExt
-
-# Paranoid Packages
-PRODUCT_PACKAGES += \
-    HALO \
-
-# Paranoid Packages and Additions for Hybrid
-PRODUCT_PACKAGES += \
-    ParanoidPreferences
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pa.family=$(OVERLAY_TARGET)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -129,7 +94,12 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     start-ssh \
     sftp \
-    scp
+    scp \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat \
+    ntfsfix \
+    ntfs-3g
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -145,45 +115,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
-# ParanoidAndroid Overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/prebuilt/preferences/$(TARGET_PRODUCT)
-
-# Allow device family to add overlays and use a same prop.conf 
-ifneq ($(OVERLAY_TARGET),) 
-    PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/$(OVERLAY_TARGET)
-    PA_CONF_SOURCE := $(OVERLAY_TARGET)
-else
-    PA_CONF_SOURCE := $(TARGET_PRODUCT)
-endif
-
-PRODUCT_COPY_FILES += \
-    vendor/revolt/prebuilt/$(PA_CONF_SOURCE).conf:system/etc/paranoid/properties.conf \
-    vendor/revolt/prebuilt/$(PA_CONF_SOURCE).conf:system/etc/paranoid/backup.conf 
-
 # Inherit common build.prop overrides
 -include vendor/revolt/configs/common_versions.mk
 
 # T-Mobile theme engine
 -include vendor/revolt/configs/themes_common.mk
-
-# Google Apps
-ifneq ($(RV_BUILD),)
-     ifdef AROMA
-     #NO GAPPS
-     else
-     # Google Apps
-     -include vendor/google/gapps_common.mk
-     endif
-else
-    # Google Apps
-    #-include vendor/google/gapps_common.mk
-endif
-
-# Bring in all audio files
-include frameworks/base/data/sounds/NewAudio.mk
-
-# Extra Ringtones
-include frameworks/base/data/sounds/AudioPackageNewWave.mk
 
 # World APN
 PRODUCT_COPY_FILES += \
