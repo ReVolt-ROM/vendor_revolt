@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
     su \
     Torch
 
+# Copy latinime for gesture typing
+PRODUCT_COPY_FILES += \
+    vendor/revolt/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+
 # CM Packages
 PRODUCT_PACKAGES += \
     VoicePlus \
