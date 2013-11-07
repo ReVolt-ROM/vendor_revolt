@@ -6,7 +6,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/dictionaries
 
 # SuperUser
 SUPERUSER_EMBEDDED := true
-SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmo.superuser
+SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 
 # ReVolt Packages
 PRODUCT_PACKAGES += \
@@ -15,8 +15,8 @@ PRODUCT_PACKAGES += \
     ReVoltLauncher \
     ReVoltPapers \
     YouTube \
-    Welcome \
-    ReVoltControl
+    Welcome
+#    ReVoltControl
 
 # AOKP Packages
 PRODUCT_PACKAGES += \
