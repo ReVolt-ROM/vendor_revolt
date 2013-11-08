@@ -11,10 +11,10 @@ SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 # ReVolt Packages
 PRODUCT_PACKAGES += \
     Apollo \
-    FontSize \
-    ReVoltLauncher \
-    ReVoltPapers \
-    YouTube \
+#    FontSize \
+#    ReVoltLauncher \
+#    ReVoltPapers \
+#    YouTube \
     Welcome
 #    ReVoltControl
 
@@ -36,10 +36,10 @@ PRODUCT_COPY_FILES += \
 
 # CM Packages
 PRODUCT_PACKAGES += \
-    VoicePlus \
-    FMRadio \
+#    VoicePlus \
+#    FMRadio \
     LockClock \
-    BluetoothExt
+#    BluetoothExt
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
