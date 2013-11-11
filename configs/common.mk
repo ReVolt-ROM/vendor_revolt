@@ -11,6 +11,7 @@ SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 # ReVolt Packages
 PRODUCT_PACKAGES += \
     Apollo \
+    libemoji \
 #    FontSize \
 #    ReVoltLauncher \
 #    ReVoltPapers \
@@ -124,6 +125,12 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 
 # T-Mobile theme engine
 -include vendor/revolt/configs/themes_common.mk
+
+# Bring in all audio files
+include frameworks/base/data/sounds/NewAudio.mk
+
+# Extra Ringtones
+include frameworks/base/data/sounds/AudioPackageNewWave.mk
 
 # World APN
 PRODUCT_COPY_FILES += \
