@@ -1,6 +1,8 @@
 ## Nexus
 # Nexus 4
 add_lunch_combo revolt_mako-userdebug
+# Nexus 5
+add_lunch_combo revolt_hammerhead-userdebug
 # Nexus 7
 add_lunch_combo revolt_grouper-userdebug
 # Nexus 7 FHD
