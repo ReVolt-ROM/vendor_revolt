@@ -53,7 +53,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     windowsmgr.max_events_per_sec=240 \
     ro.kernel.android.checkjni=0 \
-    ro.adb.secure=3 \
     persist.sys.root_access=3 \
     ro.build.selinux=1 
 
