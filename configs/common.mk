@@ -6,46 +6,42 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/dictionaries
 
 # SuperUser
 SUPERUSER_EMBEDDED := true
-SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 
-# ReVolt Packages
+# Packages
 PRODUCT_PACKAGES += \
     Apollo \
+    AppWidgetPicker \
+    BluetoothExt \
+    CellBroadcastReceiver \
+    FMRadio \
+    LatinImeDictionaryPack \
     libemoji \
-#    FontSize \
+    LockClock \
+    Microbes \
+#    ReVoltControl \
 #    ReVoltLauncher \
 #    ReVoltPapers \
-#    YouTube \
-    Welcome
-#    ReVoltControl
-
-# AOKP Packages
-PRODUCT_PACKAGES += \
-    AOKPtips \
-    AppWidgetPicker \
-    CellBroadcastReceiver \
-    LatinImeDictionaryPack \
-    Microbes \
     Stk \
     Superuser \
     su \
-    Torch
+    Torch \
+    Welcome
+
+ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.clientidbase=android-google
+else
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
+endif
 
 # Copy latinime for gesture typing
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
-# CM Packages
-PRODUCT_PACKAGES += \
-#    VoicePlus \
-#    FMRadio \
-    LockClock \
-#    BluetoothExt
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
-    ro.com.google.clientidbase=android-google \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.com.google.locationfeatures=1 \
