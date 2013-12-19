@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for hammerhead
-$(call inherit-product, device/lge/mako/full_hammerhead.mk)
+$(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 # Inherit GSM common stuff.
 $(call inherit-product, vendor/revolt/configs/gsm.mk)
