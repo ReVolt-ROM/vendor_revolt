@@ -24,6 +24,8 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jfltevzw TARGET_DEVICE=jfltevzw BUILD_FINGERPRINT="samsung/jfltevzw/jfltevzw:4.2.2/JDQ39/I545VRUAMDK:user/release-keys"
 PRIVATE_BUILD_DESC="jfltevzw-user 4.2.2 JDQ39 I545VRUAMDK release-keys"
 
-# Boot Animation
+PRODUCT_GMS_CLIENTID_BASE := android-verizon
+
+# boot animation
 PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/bootanimation/xhdpi/bootanimation.zip:system/media/bootanimation.zip
