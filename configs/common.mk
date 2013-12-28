@@ -1,11 +1,11 @@
+# SuperUser
+SUPERUSER_EMBEDDED := true
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/common
 
 # Common dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/dictionaries
-
-# SuperUser
-SUPERUSER_EMBEDDED := true
 
 # Packages
 PRODUCT_PACKAGES += \
@@ -18,14 +18,14 @@ PRODUCT_PACKAGES += \
     libemoji \
     LockClock \
     Microbes \
-#    ReVoltControl \
-#    ReVoltLauncher \
-#    ReVoltPapers \
     Stk \
     Superuser \
     su \
     Torch \
     Welcome
+#    ReVoltControl \
+#    ReVoltLauncher \
+#    ReVoltPapers \
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -47,7 +47,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1 \
     ro.setupwizard.enterprise_mode=1 \
     ro.ril.enable.amr.wideband=1 \
-    windowsmgr.max_events_per_sec=240 \
     ro.kernel.android.checkjni=0 \
     persist.sys.root_access=3 \
     ro.build.selinux=1 
@@ -68,14 +67,8 @@ PRODUCT_COPY_FILES += \
 
 # Tweaks
 PRODUCT_PROPERTY_OVERRIDES += \
-        debug.performance.tuning=1 \
-        video.accelerate.hw=1 \
         persist.sys.purgeable_assets=1 \
-        windowsmgr.max_events_per_sec=90 \
-        ro.max.fling_velocity=12000 \
-        ro.min.fling_velocity=8000 \
         pm.sleep_mode=1 \
-        ro.ril.disable.power.collapse=0 \
         ro.ril.fast.dormancy.rule=0
 
 # Enable SIP+VoIP on all targets
