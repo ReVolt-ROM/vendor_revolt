@@ -61,15 +61,14 @@ PRODUCT_COPY_FILES += \
     vendor/revolt/prebuilt/common/etc/init.local.rc:root/init.revolt.rc \
     vendor/revolt/prebuilt/common/etc/init.d/00start:system/etc/init.d/00start \
     vendor/revolt/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
-    vendor/revolt/prebuilt/common/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel \
     vendor/revolt/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
     vendor/revolt/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # Tweaks
 PRODUCT_PROPERTY_OVERRIDES += \
-        persist.sys.purgeable_assets=1 \
-        pm.sleep_mode=1 \
-        ro.ril.fast.dormancy.rule=0
+    persist.sys.purgeable_assets=1 \
+    pm.sleep_mode=1 \
+    ro.ril.fast.dormancy.rule=0
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
