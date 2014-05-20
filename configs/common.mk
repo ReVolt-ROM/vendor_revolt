@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
     libemoji \
     LockClock \
     Microbes \
+    ReVoltOTA \
     Stk \
     Superuser \
     su \
