@@ -10,7 +10,7 @@ ifneq ($(RV_BUILD),)
         ro.goo.developerid=johnhany97 \
         ro.goo.rom=ReVolt \
         ro.goo.version=$(DATE) \
-        ro.revolt.version=ReVoltKK_$(TARGET_DEVICE)-$(RV_BUILD)
+        ro.revolt.version=ReVoltKK_$(TARGET_PRODUCT)-$(RV_BUILD)
 else
 ifneq ($(RV_NIGHTLY),)
 # ReVolt Nightly Build Details
@@ -18,7 +18,7 @@ ifneq ($(RV_NIGHTLY),)
         ro.goo.developerid=johnhany97 \
         ro.goo.rom=ReVoltNightlies \
         ro.goo.version=$(DATE) \
-        ro.revolt.version=ReVoltKK_$(TARGET_DEVICE)-Nightly-$(DATE)
+        ro.revolt.version=ReVoltKK_$(TARGET_PRODUCT)-Nightly-$(DATE)
 else
 ifneq ($(RV_ALPHA),)
 # ReVolt Alpha Build Details
@@ -26,12 +26,12 @@ ifneq ($(RV_ALPHA),)
         ro.goo.developerid=johnhany97 \
         ro.goo.rom=ReVoltALPHA \
         ro.goo.version=$(DATE) \
-        ro.revolt.version=ReVoltKK_$(TARGET_DEVICE)-ALPHA-$(DATE)
+        ro.revolt.version=ReVoltKK_$(TARGET_PRODUCT)-ALPHA-$(DATE)
 else
 # ReVolt UnOfficial Build Details
     PRODUCT_PROPERTY_OVERRIDES += \
 	ro.goo.version=$(DATE) \
-        ro.revolt.version=ReVoltKK_$(TARGET_DEVICE)-Unofficial-$(DATE)
+        ro.revolt.version=ReVoltKK_$(TARGET_PRODUCT)-Unofficial-$(DATE)
 endif
 endif
 endif

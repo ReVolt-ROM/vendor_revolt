@@ -23,8 +23,8 @@ PRODUCT_PACKAGES += \
     Superuser \
     su \
     Torch \
-    Welcome
-#    ReVoltControl \
+    Welcome \
+    ReVoltControl
 #    ReVoltLauncher \
 #    ReVoltPapers \
 
