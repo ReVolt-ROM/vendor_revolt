@@ -12,7 +12,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/revolt/overlay/hammerhead
 
 # Setup device specific product configuration
 PRODUCT_NAME := revolt_hammerhead
-PRODUCT_BRAND := google
+PRODUCT_BRAND := Google
 PRODUCT_DEVICE := hammerhead
 PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE
