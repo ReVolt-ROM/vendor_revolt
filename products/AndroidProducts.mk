@@ -28,6 +28,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/n8013.mk \
     $(LOCAL_DIR)/odin.mk \
     $(LOCAL_DIR)/pico.mk \
+    $(LOCAL_DIR)/vs980.mk \
     $(LOCAL_DIR)/xt907.mk \
     $(LOCAL_DIR)/xt925.mk \
     $(LOCAL_DIR)/xt926.mk \

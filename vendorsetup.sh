@@ -63,7 +63,7 @@ add_lunch_combo revolt_find5-userdebug
 ## HTC
 # One
 add_lunch_combo revolt_m7-userdebug
-# Explorer 
+# Explorer
 add_lunch_combo revolt_pico-userdebug
 
 ## Sony
@@ -85,4 +85,8 @@ add_lunch_combo revolt_xt907-userdebug
 add_lunch_combo revolt_xt925-userdebug
 # Droid Razr HD
 add_lunch_combo revolt_xt926-userdebug
+
+##LG
+# Verizon G2
+add_lunch_combo revolt_vs980-userdebug
 
