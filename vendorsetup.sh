@@ -7,6 +7,8 @@ add_lunch_combo revolt_hammerhead-userdebug
 add_lunch_combo revolt_grouper-userdebug
 # Nexus 7 FHD
 add_lunch_combo revolt_flo-userdebug
+# Nexus 7 FHD (LTE Edition)
+add_lunch_combo revolt_deb-userdebug
 # Nexus 10
 add_lunch_combo revolt_manta-userdebug
 # Galaxy Nexus

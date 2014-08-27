@@ -2,6 +2,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/d2spr.mk \
     $(LOCAL_DIR)/d2vzw.mk \
     $(LOCAL_DIR)/d710.mk \
+    #(LOCAL_DIR)/deb.mk \
     $(LOCAL_DIR)/find5.mk \
     $(LOCAL_DIR)/flo.mk \
     $(LOCAL_DIR)/grouper.mk \
