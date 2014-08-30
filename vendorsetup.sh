@@ -21,10 +21,8 @@ add_lunch_combo revolt_i9100-userdebug
 add_lunch_combo revolt_i9100g-userdebug
 # Galaxy S3
 add_lunch_combo revolt_i9300-userdebug
-# Sprint Galaxy S3
-add_lunch_combo revolt_d2spr-userdebug
-# Verizon Galaxy S3
-add_lunch_combo revolt_d2vzw-userdebug
+# Galaxy S3 (LTE Editions)
+add_lunch_combo revolt_d2lte-userdebug
 # Epic 4G (Sprint Galaxy S2)
 add_lunch_combo revolt_d710-userdebug
 # Galaxy S4 LTE
