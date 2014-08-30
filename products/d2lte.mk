@@ -9,7 +9,7 @@ $(call inherit-product, vendor/revolt/configs/common.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := revolt_d2lte
-PRODUCT_DEVICE := d2att
+PRODUCT_DEVICE := d2lte
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
