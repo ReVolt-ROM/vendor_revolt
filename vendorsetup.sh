@@ -26,19 +26,7 @@ add_lunch_combo revolt_d2lte-userdebug
 # Epic 4G (Sprint Galaxy S2)
 add_lunch_combo revolt_d710-userdebug
 # Galaxy S4 LTE
-add_lunch_combo revolt_jfltexx-userdebug
-# T-Mobile Galaxy S4
-add_lunch_combo revolt_jfltetmo-userdebug
-# Canadian Galaxy S4
-add_lunch_combo revolt_jfltecan-userdebug
-# USCC Galaxy S4
-add_lunch_combo revolt_jflteusc-userdebug
-# Sprint Galaxy S4
-add_lunch_combo revolt_jfltespr-userdebug
-# Verizon Galaxy S4
-add_lunch_combo revolt_jfltevzw-userdebug
-# AT&T Galaxy S4
-add_lunch_combo revolt_jflteatt-userdebug
+add_lunch_combo revolt_jflte-userdebug
 # Int'l Galaxy S4
 add_lunch_combo revolt_i9500-userdebug
 

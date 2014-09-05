@@ -1,21 +1,21 @@
-# Inherit AOSP device configuration for d2lte.
-$(call inherit-product, device/samsung/d2lte/full_d2lte.mk)
+# Inherit AOSP device configuration for jflte.
+$(call inherit-product, device/samsung/jflte/full_jflte.mk)
 
 # Inherit GSM common stuff.
-$(call inherit-product, vendor/revolt/configs/gsm.mk) 
+$(call inherit-product, vendor/revolt/configs/gsm.mk)
 
 # Inherit ReVolt common bits
 $(call inherit-product, vendor/revolt/configs/common.mk)
 
-# Unified device flag for Verizon permissions
+#Unified device flag for Verizon permissions
 VZW_UNIFIED := true
 
-# Inherit common Verizon Wireless Perms and Lib
+# Inherit common Verizon Wireless perms & lib
 $(call inherit-product, vendor/revolt/configs/vzw.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := revolt_d2lte
-PRODUCT_DEVICE := d2lte
+PRODUCT_DEVICE := jflte
+PRODUCT_NAME := revolt_jflte
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
