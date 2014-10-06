@@ -32,7 +32,7 @@ ifneq ($(RV_BETA),)
         ro.goo.developerid=johnhany97 \
         ro.goo.rom=ReVoltNightlies \
         ro.goo.version=$(DATE) \
-        ro.revolt.version=revolt_$(TARGET_PRODUCT)-$(RV_BUILD)-BETA-$(DATE)
+        ro.revolt.version=revolt_$(TARGET_PRODUCT)-$(VERSION)-BETA-$(DATE)
 else
 ifneq ($(RV_ALPHA),)
 # ReVolt Alpha Build Details
@@ -40,7 +40,7 @@ ifneq ($(RV_ALPHA),)
         ro.goo.developerid=johnhany97 \
         ro.goo.rom=ReVoltALPHA \
         ro.goo.version=$(DATE) \
-        ro.revolt.version=revolt_$(TARGET_PRODUCT)-ALPHA-$(DATE)
+        ro.revolt.version=revolt_$(TARGET_PRODUCT)-$(VERSION)-ALPHA-$(DATE)
 else
 # ReVolt UnOfficial Build Details
     PRODUCT_PROPERTY_OVERRIDES += \
