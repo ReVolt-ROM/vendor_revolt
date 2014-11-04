@@ -27,11 +27,11 @@ if [ -z "$OUT" -o ! -d "$OUT" ]; then
 fi
 
 if [ "$TARGET_BUILD_TYPE" = "debug" ]; then
-    OTAPACKAGE=$OUT/${TARGET_PRODUCT}_debug-ota-$TARGET_BUILD_VARIANT.$USER.zip
+    OTAPACKAGE=$OUT/${TARGET_PRODUCT}_debug-ota-$BUILD-NUMBER.zip
 elif [ "$TARGET_BUILD_VARIANT" = "userdebug" ]; then
-    OTAPACKAGE=$OUT/$TARGET_PRODUCT-ota-eng.$USER.zip
+    OTAPACKAGE=$OUT/$TARGET_PRODUCT-ota-$BUILD-NUMBER.zip
 else
-    OTAPACKAGE=$OUT/$TARGET_PRODUCT-ota-$TARGET_BUILD_VARIANT.$USER.zip
+    OTAPACKAGE=$OUT/$TARGET_PRODUCT-ota-$BUILD-NUMBER.zip
 fi
 if [ ! -f "$OTAPACKAGE" ]; then
 	echo -e "$OTAPACKAGE doesn't exist!";
